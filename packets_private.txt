@@ -3,30 +3,14 @@
 	version 4, algo 1, created 1627420144, expires 0
 	pkey[0]: [4096 bits]
 	pkey[1]: [17 bits]
-	iter+salt S2K, algo: 7, SHA1 protection, hash: 2, salt: E5B8470CF086E20D
+	iter+salt S2K, algo: 7, SHA1 protection, hash: 2, salt: 7949A7B247260AFF
 	protect count: 65011712 (255)
-	protect IV:  d9 12 41 8c fc 52 ca b7 80 12 b5 56 35 d2 ee 59
+	protect IV:  bb 9a e5 21 68 45 db 36 fa c2 8f f3 ef 39 ab 44
 	skey[2]: [v4 protected]
 	keyid: 0CD3E41084CA1972
-# off=1865 ctb=b4 tag=13 hlen=2 plen=34
-:user ID packet: "Vaclav (Work) <vaclav@example.org>"
-# off=1901 ctb=89 tag=2 hlen=3 plen=590
-:signature packet: algo 1, keyid 0CD3E41084CA1972
-	version 4, created 1627423106, md5len 0, sigclass 0x13
-	digest algo 10, begin of digest 18 85
-	hashed subpkt 33 len 21 (issuer fpr v4 72A5E32C30A256D55C27CACE0CD3E41084CA1972)
-	hashed subpkt 2 len 4 (sig created 2021-07-27)
-	hashed subpkt 27 len 1 (key flags: 03)
-	hashed subpkt 11 len 4 (pref-sym-algos: 9 8 7 2)
-	hashed subpkt 21 len 5 (pref-hash-algos: 10 9 8 11 2)
-	hashed subpkt 22 len 3 (pref-zip-algos: 2 3 1)
-	hashed subpkt 30 len 1 (features: 01)
-	hashed subpkt 23 len 1 (keyserver preferences: 80)
-	subpkt 16 len 8 (issuer key ID 0CD3E41084CA1972)
-	data: [4095 bits]
-# off=2494 ctb=b4 tag=13 hlen=2 plen=38
+# off=1865 ctb=b4 tag=13 hlen=2 plen=38
 :user ID packet: "Vaclav (Personal) <vaclav@example.com>"
-# off=2534 ctb=89 tag=2 hlen=3 plen=593
+# off=1905 ctb=89 tag=2 hlen=3 plen=593
 :signature packet: algo 1, keyid 0CD3E41084CA1972
 	version 4, created 1627423825, md5len 0, sigclass 0x13
 	digest algo 10, begin of digest a2 35
@@ -41,14 +25,30 @@
 	hashed subpkt 25 len 1 (primary user ID)
 	subpkt 16 len 8 (issuer key ID 0CD3E41084CA1972)
 	data: [4096 bits]
+# off=2501 ctb=b4 tag=13 hlen=2 plen=34
+:user ID packet: "Vaclav (Work) <vaclav@example.org>"
+# off=2537 ctb=89 tag=2 hlen=3 plen=590
+:signature packet: algo 1, keyid 0CD3E41084CA1972
+	version 4, created 1627423106, md5len 0, sigclass 0x13
+	digest algo 10, begin of digest 18 85
+	hashed subpkt 33 len 21 (issuer fpr v4 72A5E32C30A256D55C27CACE0CD3E41084CA1972)
+	hashed subpkt 2 len 4 (sig created 2021-07-27)
+	hashed subpkt 27 len 1 (key flags: 03)
+	hashed subpkt 11 len 4 (pref-sym-algos: 9 8 7 2)
+	hashed subpkt 21 len 5 (pref-hash-algos: 10 9 8 11 2)
+	hashed subpkt 22 len 3 (pref-zip-algos: 2 3 1)
+	hashed subpkt 30 len 1 (features: 01)
+	hashed subpkt 23 len 1 (keyserver preferences: 80)
+	subpkt 16 len 8 (issuer key ID 0CD3E41084CA1972)
+	data: [4095 bits]
 # off=3130 ctb=9d tag=7 hlen=3 plen=1862
 :secret sub key packet:
 	version 4, algo 1, created 1627420144, expires 0
 	pkey[0]: [4096 bits]
 	pkey[1]: [17 bits]
-	iter+salt S2K, algo: 7, SHA1 protection, hash: 2, salt: 5A6955A178777ACE
+	iter+salt S2K, algo: 7, SHA1 protection, hash: 2, salt: 346F34916CF03877
 	protect count: 65011712 (255)
-	protect IV:  91 7e 73 bf a0 f2 12 51 50 f6 8b 96 1f 9f 4b 81
+	protect IV:  c2 d5 9b 08 b2 4d b9 21 69 0d 2b 38 18 a8 bf 9e
 	skey[2]: [v4 protected]
 	keyid: AD36C909CB8643D9
 # off=4995 ctb=89 tag=2 hlen=3 plen=566
@@ -59,4 +59,24 @@
 	hashed subpkt 2 len 4 (sig created 2021-07-27)
 	hashed subpkt 27 len 1 (key flags: 0C)
 	subpkt 16 len 8 (issuer key ID 0CD3E41084CA1972)
+	data: [4096 bits]
+# off=5564 ctb=9d tag=7 hlen=3 plen=1862
+:secret sub key packet:
+	version 4, algo 1, created 1627424403, expires 0
+	pkey[0]: [4096 bits]
+	pkey[1]: [17 bits]
+	iter+salt S2K, algo: 7, SHA1 protection, hash: 2, salt: C06BAE5DAD1E4FD2
+	protect count: 65011712 (255)
+	protect IV:  e0 82 03 5b 93 0d c2 c4 8e bc ce bd 8d 70 32 ef
+	skey[2]: [v4 protected]
+	keyid: CEB65B117719C44C
+# off=7429 ctb=89 tag=2 hlen=3 plen=1132
+:signature packet: algo 1, keyid 0CD3E41084CA1972
+	version 4, created 1627424403, md5len 0, sigclass 0x18
+	digest algo 10, begin of digest 5b d6
+	hashed subpkt 33 len 21 (issuer fpr v4 72A5E32C30A256D55C27CACE0CD3E41084CA1972)
+	hashed subpkt 2 len 4 (sig created 2021-07-27)
+	hashed subpkt 27 len 1 (key flags: 02)
+	subpkt 16 len 8 (issuer key ID 0CD3E41084CA1972)
+	subpkt 32 len 563 (signature: v4, class 0x19, algo 1, digest algo 10)
 	data: [4096 bits]

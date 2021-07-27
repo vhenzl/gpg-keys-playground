@@ -4,44 +4,6 @@ Old: Public Key Packet(tag 6)(525 bytes)
 	Pub alg - RSA Encrypt or Sign(pub 1)
 	RSA n(4096 bits) - ...
 	RSA e(17 bits) - ...
-Old: User ID Packet(tag 13)(34 bytes)
-	User ID - Vaclav (Work) <vaclav@example.org>
-Old: Signature Packet(tag 2)(590 bytes)
-	Ver 4 - new
-	Sig type - Positive certification of a User ID and Public Key packet(0x13).
-	Pub alg - RSA Encrypt or Sign(pub 1)
-	Hash alg - SHA512(hash 10)
-	Hashed Sub: issuer fingerprint(sub 33)(21 bytes)
-	 v4 -	Fingerprint - 72 a5 e3 2c 30 a2 56 d5 5c 27 ca ce 0c d3 e4 10 84 ca 19 72 
-	Hashed Sub: signature creation time(sub 2)(4 bytes)
-		Time - Tue Jul 27 21:58:26 UTC 2021
-	Hashed Sub: key flags(sub 27)(1 bytes)
-		Flag - This key may be used to certify other keys
-		Flag - This key may be used to sign data
-	Hashed Sub: preferred symmetric algorithms(sub 11)(4 bytes)
-		Sym alg - AES with 256-bit key(sym 9)
-		Sym alg - AES with 192-bit key(sym 8)
-		Sym alg - AES with 128-bit key(sym 7)
-		Sym alg - Triple-DES(sym 2)
-	Hashed Sub: preferred hash algorithms(sub 21)(5 bytes)
-		Hash alg - SHA512(hash 10)
-		Hash alg - SHA384(hash 9)
-		Hash alg - SHA256(hash 8)
-		Hash alg - SHA224(hash 11)
-		Hash alg - SHA1(hash 2)
-	Hashed Sub: preferred compression algorithms(sub 22)(3 bytes)
-		Comp alg - ZLIB <RFC1950>(comp 2)
-		Comp alg - BZip2(comp 3)
-		Comp alg - ZIP <RFC1951>(comp 1)
-	Hashed Sub: features(sub 30)(1 bytes)
-		Flag - Modification detection (packets 18 and 19)
-	Hashed Sub: key server preferences(sub 23)(1 bytes)
-		Flag - No-modify
-	Sub: issuer key ID(sub 16)(8 bytes)
-		Key ID - 0x0CD3E41084CA1972
-	Hash left 2 bytes - 18 85 
-	RSA m^d mod n(4095 bits) - ...
-		-> PKCS-1
 Old: User ID Packet(tag 13)(38 bytes)
 	User ID - Vaclav (Personal) <vaclav@example.com>
 Old: Signature Packet(tag 2)(593 bytes)
@@ -82,6 +44,44 @@ Old: Signature Packet(tag 2)(593 bytes)
 	Hash left 2 bytes - a2 35 
 	RSA m^d mod n(4096 bits) - ...
 		-> PKCS-1
+Old: User ID Packet(tag 13)(34 bytes)
+	User ID - Vaclav (Work) <vaclav@example.org>
+Old: Signature Packet(tag 2)(590 bytes)
+	Ver 4 - new
+	Sig type - Positive certification of a User ID and Public Key packet(0x13).
+	Pub alg - RSA Encrypt or Sign(pub 1)
+	Hash alg - SHA512(hash 10)
+	Hashed Sub: issuer fingerprint(sub 33)(21 bytes)
+	 v4 -	Fingerprint - 72 a5 e3 2c 30 a2 56 d5 5c 27 ca ce 0c d3 e4 10 84 ca 19 72 
+	Hashed Sub: signature creation time(sub 2)(4 bytes)
+		Time - Tue Jul 27 21:58:26 UTC 2021
+	Hashed Sub: key flags(sub 27)(1 bytes)
+		Flag - This key may be used to certify other keys
+		Flag - This key may be used to sign data
+	Hashed Sub: preferred symmetric algorithms(sub 11)(4 bytes)
+		Sym alg - AES with 256-bit key(sym 9)
+		Sym alg - AES with 192-bit key(sym 8)
+		Sym alg - AES with 128-bit key(sym 7)
+		Sym alg - Triple-DES(sym 2)
+	Hashed Sub: preferred hash algorithms(sub 21)(5 bytes)
+		Hash alg - SHA512(hash 10)
+		Hash alg - SHA384(hash 9)
+		Hash alg - SHA256(hash 8)
+		Hash alg - SHA224(hash 11)
+		Hash alg - SHA1(hash 2)
+	Hashed Sub: preferred compression algorithms(sub 22)(3 bytes)
+		Comp alg - ZLIB <RFC1950>(comp 2)
+		Comp alg - BZip2(comp 3)
+		Comp alg - ZIP <RFC1951>(comp 1)
+	Hashed Sub: features(sub 30)(1 bytes)
+		Flag - Modification detection (packets 18 and 19)
+	Hashed Sub: key server preferences(sub 23)(1 bytes)
+		Flag - No-modify
+	Sub: issuer key ID(sub 16)(8 bytes)
+		Key ID - 0x0CD3E41084CA1972
+	Hash left 2 bytes - 18 85 
+	RSA m^d mod n(4095 bits) - ...
+		-> PKCS-1
 Old: Public Subkey Packet(tag 14)(525 bytes)
 	Ver 4 - new
 	Public key creation time - Tue Jul 27 21:09:04 UTC 2021
@@ -103,5 +103,41 @@ Old: Signature Packet(tag 2)(566 bytes)
 	Sub: issuer key ID(sub 16)(8 bytes)
 		Key ID - 0x0CD3E41084CA1972
 	Hash left 2 bytes - 54 86 
+	RSA m^d mod n(4096 bits) - ...
+		-> PKCS-1
+Old: Public Subkey Packet(tag 14)(525 bytes)
+	Ver 4 - new
+	Public key creation time - Tue Jul 27 22:20:03 UTC 2021
+	Pub alg - RSA Encrypt or Sign(pub 1)
+	RSA n(4096 bits) - ...
+	RSA e(17 bits) - ...
+Old: Signature Packet(tag 2)(1132 bytes)
+	Ver 4 - new
+	Sig type - Subkey Binding Signature(0x18).
+	Pub alg - RSA Encrypt or Sign(pub 1)
+	Hash alg - SHA512(hash 10)
+	Hashed Sub: issuer fingerprint(sub 33)(21 bytes)
+	 v4 -	Fingerprint - 72 a5 e3 2c 30 a2 56 d5 5c 27 ca ce 0c d3 e4 10 84 ca 19 72 
+	Hashed Sub: signature creation time(sub 2)(4 bytes)
+		Time - Tue Jul 27 22:20:03 UTC 2021
+	Hashed Sub: key flags(sub 27)(1 bytes)
+		Flag - This key may be used to sign data
+	Sub: issuer key ID(sub 16)(8 bytes)
+		Key ID - 0x0CD3E41084CA1972
+	Sub: embedded signature(sub 32)(563 bytes)
+	Ver 4 - new
+	Sig type - Primary Key Binding Signature(0x19).
+	Pub alg - RSA Encrypt or Sign(pub 1)
+	Hash alg - SHA512(hash 10)
+	Hashed Sub: issuer fingerprint(sub 33)(21 bytes)
+	 v4 -	Fingerprint - d0 93 e3 26 6d 19 58 0d 38 45 ee 18 ce b6 5b 11 77 19 c4 4c 
+	Hashed Sub: signature creation time(sub 2)(4 bytes)
+		Time - Tue Jul 27 22:20:03 UTC 2021
+	Sub: issuer key ID(sub 16)(8 bytes)
+		Key ID - 0xCEB65B117719C44C
+	Hash left 2 bytes - 37 64 
+	RSA m^d mod n(4096 bits) - ...
+		-> PKCS-1
+	Hash left 2 bytes - 5b d6 
 	RSA m^d mod n(4096 bits) - ...
 		-> PKCS-1
