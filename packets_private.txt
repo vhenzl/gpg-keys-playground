@@ -3,9 +3,9 @@
 	version 4, algo 1, created 1627420144, expires 0
 	pkey[0]: [4096 bits]
 	pkey[1]: [17 bits]
-	iter+salt S2K, algo: 7, SHA1 protection, hash: 2, salt: CB31AD1450F80938
+	iter+salt S2K, algo: 7, SHA1 protection, hash: 2, salt: 0EA987F52F498D69
 	protect count: 65011712 (255)
-	protect IV:  dc 81 7e 87 b3 74 d8 4b 5c 9c f7 c2 2f f6 8b 41
+	protect IV:  44 a8 92 df 44 fc 8f 9e f4 e0 06 7e 2e 65 a8 74
 	skey[2]: [v4 protected]
 	keyid: 0CD3E41084CA1972
 # off=1865 ctb=b4 tag=13 hlen=2 plen=38
@@ -24,17 +24,33 @@
 	hashed subpkt 23 len 1 (keyserver preferences: 80)
 	subpkt 16 len 8 (issuer key ID 0CD3E41084CA1972)
 	data: [4094 bits]
-# off=2498 ctb=9d tag=7 hlen=3 plen=1862
+# off=2498 ctb=b4 tag=13 hlen=2 plen=34
+:user ID packet: "Vaclav (Work) <vaclav@example.org>"
+# off=2534 ctb=89 tag=2 hlen=3 plen=590
+:signature packet: algo 1, keyid 0CD3E41084CA1972
+	version 4, created 1627423106, md5len 0, sigclass 0x13
+	digest algo 10, begin of digest 18 85
+	hashed subpkt 33 len 21 (issuer fpr v4 72A5E32C30A256D55C27CACE0CD3E41084CA1972)
+	hashed subpkt 2 len 4 (sig created 2021-07-27)
+	hashed subpkt 27 len 1 (key flags: 03)
+	hashed subpkt 11 len 4 (pref-sym-algos: 9 8 7 2)
+	hashed subpkt 21 len 5 (pref-hash-algos: 10 9 8 11 2)
+	hashed subpkt 22 len 3 (pref-zip-algos: 2 3 1)
+	hashed subpkt 30 len 1 (features: 01)
+	hashed subpkt 23 len 1 (keyserver preferences: 80)
+	subpkt 16 len 8 (issuer key ID 0CD3E41084CA1972)
+	data: [4095 bits]
+# off=3127 ctb=9d tag=7 hlen=3 plen=1862
 :secret sub key packet:
 	version 4, algo 1, created 1627420144, expires 0
 	pkey[0]: [4096 bits]
 	pkey[1]: [17 bits]
-	iter+salt S2K, algo: 7, SHA1 protection, hash: 2, salt: 6A2C65E0D8E2B716
+	iter+salt S2K, algo: 7, SHA1 protection, hash: 2, salt: 26AF2D69E512465E
 	protect count: 65011712 (255)
-	protect IV:  fd 58 e4 c8 99 0a 55 b8 01 5c 5a bb c0 ae 8f 4a
+	protect IV:  f6 2d 43 2e 1d 8d db 06 52 84 01 c9 6f 1c bf 7c
 	skey[2]: [v4 protected]
 	keyid: AD36C909CB8643D9
-# off=4363 ctb=89 tag=2 hlen=3 plen=566
+# off=4992 ctb=89 tag=2 hlen=3 plen=566
 :signature packet: algo 1, keyid 0CD3E41084CA1972
 	version 4, created 1627420144, md5len 0, sigclass 0x18
 	digest algo 10, begin of digest 54 86
