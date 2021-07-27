@@ -7,52 +7,14 @@ Old: Secret Key Packet(tag 5)(1862 bytes)
 	Sym alg - AES with 128-bit key(sym 7)
 	Iterated and salted string-to-key(s2k 3):
 		Hash alg - SHA1(hash 2)
-		Salt - 0e a9 87 f5 2f 49 8d 69 
+		Salt - e5 b8 47 0c f0 86 e2 0d 
 		Count - 65011712(coded count 255)
-	IV - 44 a8 92 df 44 fc 8f 9e f4 e0 06 7e 2e 65 a8 74 
+	IV - d9 12 41 8c fc 52 ca b7 80 12 b5 56 35 d2 ee 59 
 	Encrypted RSA d
 	Encrypted RSA p
 	Encrypted RSA q
 	Encrypted RSA u
 	Encrypted SHA1 hash
-Old: User ID Packet(tag 13)(38 bytes)
-	User ID - Vaclav (Personal) <vaclav@example.com>
-Old: Signature Packet(tag 2)(590 bytes)
-	Ver 4 - new
-	Sig type - Positive certification of a User ID and Public Key packet(0x13).
-	Pub alg - RSA Encrypt or Sign(pub 1)
-	Hash alg - SHA512(hash 10)
-	Hashed Sub: issuer fingerprint(sub 33)(21 bytes)
-	 v4 -	Fingerprint - 72 a5 e3 2c 30 a2 56 d5 5c 27 ca ce 0c d3 e4 10 84 ca 19 72 
-	Hashed Sub: signature creation time(sub 2)(4 bytes)
-		Time - Tue Jul 27 21:09:04 UTC 2021
-	Hashed Sub: key flags(sub 27)(1 bytes)
-		Flag - This key may be used to certify other keys
-		Flag - This key may be used to sign data
-	Hashed Sub: preferred symmetric algorithms(sub 11)(4 bytes)
-		Sym alg - AES with 256-bit key(sym 9)
-		Sym alg - AES with 192-bit key(sym 8)
-		Sym alg - AES with 128-bit key(sym 7)
-		Sym alg - Triple-DES(sym 2)
-	Hashed Sub: preferred hash algorithms(sub 21)(5 bytes)
-		Hash alg - SHA512(hash 10)
-		Hash alg - SHA384(hash 9)
-		Hash alg - SHA256(hash 8)
-		Hash alg - SHA224(hash 11)
-		Hash alg - SHA1(hash 2)
-	Hashed Sub: preferred compression algorithms(sub 22)(3 bytes)
-		Comp alg - ZLIB <RFC1950>(comp 2)
-		Comp alg - BZip2(comp 3)
-		Comp alg - ZIP <RFC1951>(comp 1)
-	Hashed Sub: features(sub 30)(1 bytes)
-		Flag - Modification detection (packets 18 and 19)
-	Hashed Sub: key server preferences(sub 23)(1 bytes)
-		Flag - No-modify
-	Sub: issuer key ID(sub 16)(8 bytes)
-		Key ID - 0x0CD3E41084CA1972
-	Hash left 2 bytes - ef 3e 
-	RSA m^d mod n(4094 bits) - ...
-		-> PKCS-1
 Old: User ID Packet(tag 13)(34 bytes)
 	User ID - Vaclav (Work) <vaclav@example.org>
 Old: Signature Packet(tag 2)(590 bytes)
@@ -91,6 +53,46 @@ Old: Signature Packet(tag 2)(590 bytes)
 	Hash left 2 bytes - 18 85 
 	RSA m^d mod n(4095 bits) - ...
 		-> PKCS-1
+Old: User ID Packet(tag 13)(38 bytes)
+	User ID - Vaclav (Personal) <vaclav@example.com>
+Old: Signature Packet(tag 2)(593 bytes)
+	Ver 4 - new
+	Sig type - Positive certification of a User ID and Public Key packet(0x13).
+	Pub alg - RSA Encrypt or Sign(pub 1)
+	Hash alg - SHA512(hash 10)
+	Hashed Sub: key flags(sub 27)(1 bytes)
+		Flag - This key may be used to certify other keys
+		Flag - This key may be used to sign data
+	Hashed Sub: preferred symmetric algorithms(sub 11)(4 bytes)
+		Sym alg - AES with 256-bit key(sym 9)
+		Sym alg - AES with 192-bit key(sym 8)
+		Sym alg - AES with 128-bit key(sym 7)
+		Sym alg - Triple-DES(sym 2)
+	Hashed Sub: preferred hash algorithms(sub 21)(5 bytes)
+		Hash alg - SHA512(hash 10)
+		Hash alg - SHA384(hash 9)
+		Hash alg - SHA256(hash 8)
+		Hash alg - SHA224(hash 11)
+		Hash alg - SHA1(hash 2)
+	Hashed Sub: preferred compression algorithms(sub 22)(3 bytes)
+		Comp alg - ZLIB <RFC1950>(comp 2)
+		Comp alg - BZip2(comp 3)
+		Comp alg - ZIP <RFC1951>(comp 1)
+	Hashed Sub: features(sub 30)(1 bytes)
+		Flag - Modification detection (packets 18 and 19)
+	Hashed Sub: key server preferences(sub 23)(1 bytes)
+		Flag - No-modify
+	Hashed Sub: issuer fingerprint(sub 33)(21 bytes)
+	 v4 -	Fingerprint - 72 a5 e3 2c 30 a2 56 d5 5c 27 ca ce 0c d3 e4 10 84 ca 19 72 
+	Hashed Sub: signature creation time(sub 2)(4 bytes)
+		Time - Tue Jul 27 22:10:25 UTC 2021
+	Hashed Sub: primary User ID(sub 25)(1 bytes)
+		Primary - Yes
+	Sub: issuer key ID(sub 16)(8 bytes)
+		Key ID - 0x0CD3E41084CA1972
+	Hash left 2 bytes - a2 35 
+	RSA m^d mod n(4096 bits) - ...
+		-> PKCS-1
 Old: Secret Subkey Packet(tag 7)(1862 bytes)
 	Ver 4 - new
 	Public key creation time - Tue Jul 27 21:09:04 UTC 2021
@@ -100,9 +102,9 @@ Old: Secret Subkey Packet(tag 7)(1862 bytes)
 	Sym alg - AES with 128-bit key(sym 7)
 	Iterated and salted string-to-key(s2k 3):
 		Hash alg - SHA1(hash 2)
-		Salt - 26 af 2d 69 e5 12 46 5e 
+		Salt - 5a 69 55 a1 78 77 7a ce 
 		Count - 65011712(coded count 255)
-	IV - f6 2d 43 2e 1d 8d db 06 52 84 01 c9 6f 1c bf 7c 
+	IV - 91 7e 73 bf a0 f2 12 51 50 f6 8b 96 1f 9f 4b 81 
 	Encrypted RSA d
 	Encrypted RSA p
 	Encrypted RSA q

@@ -3,8 +3,8 @@
 sec   rsa4096/0CD3E41084CA1972 2021-07-27 [SC]
       Key fingerprint = 72A5 E32C 30A2 56D5 5C27  CACE 0CD3 E410 84CA 1972
       Keygrip = 714C7142B78942A6EEA7A2FC028DED015B65746E
-uid                 [ultimate] Vaclav (Work) <vaclav@example.org>
 uid                 [ultimate] Vaclav (Personal) <vaclav@example.com>
+uid                 [ultimate] Vaclav (Work) <vaclav@example.org>
 ssb   rsa4096/AD36C909CB8643D9 2021-07-27 [E]
       Key fingerprint = E4C4 0EA7 1695 236E 298C  01EC AD36 C909 CB86 43D9
       Keygrip = F32A10510D7C0A7DE7EE7B2BDFEE5E70BE12A9A8
