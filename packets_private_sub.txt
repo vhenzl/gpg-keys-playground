@@ -1,0 +1,43 @@
+# off=0 ctb=95 tag=5 hlen=3 plen=533
+:secret key packet:
+	version 4, algo 1, created 1627420144, expires 0
+	pkey[0]: [4096 bits]
+	pkey[1]: [17 bits]
+	gnu-dummy S2K, algo: 0, simple checksum, hash: 0
+	protect IV: 
+	keyid: 0CD3E41084CA1972
+# off=536 ctb=b4 tag=13 hlen=2 plen=38
+:user ID packet: "Vaclav (Personal) <vaclav@example.com>"
+# off=576 ctb=89 tag=2 hlen=3 plen=590
+:signature packet: algo 1, keyid 0CD3E41084CA1972
+	version 4, created 1627420144, md5len 0, sigclass 0x13
+	digest algo 10, begin of digest ef 3e
+	hashed subpkt 33 len 21 (issuer fpr v4 72A5E32C30A256D55C27CACE0CD3E41084CA1972)
+	hashed subpkt 2 len 4 (sig created 2021-07-27)
+	hashed subpkt 27 len 1 (key flags: 03)
+	hashed subpkt 11 len 4 (pref-sym-algos: 9 8 7 2)
+	hashed subpkt 21 len 5 (pref-hash-algos: 10 9 8 11 2)
+	hashed subpkt 22 len 3 (pref-zip-algos: 2 3 1)
+	hashed subpkt 30 len 1 (features: 01)
+	hashed subpkt 23 len 1 (keyserver preferences: 80)
+	subpkt 16 len 8 (issuer key ID 0CD3E41084CA1972)
+	data: [4094 bits]
+# off=1169 ctb=9d tag=7 hlen=3 plen=1862
+:secret sub key packet:
+	version 4, algo 1, created 1627420144, expires 0
+	pkey[0]: [4096 bits]
+	pkey[1]: [17 bits]
+	iter+salt S2K, algo: 7, SHA1 protection, hash: 2, salt: 001DCAC1E46B6E99
+	protect count: 65011712 (255)
+	protect IV:  f8 50 77 e1 5e 69 a1 16 89 76 87 3e 0d 5a dd a7
+	skey[2]: [v4 protected]
+	keyid: AD36C909CB8643D9
+# off=3034 ctb=89 tag=2 hlen=3 plen=566
+:signature packet: algo 1, keyid 0CD3E41084CA1972
+	version 4, created 1627420144, md5len 0, sigclass 0x18
+	digest algo 10, begin of digest 54 86
+	hashed subpkt 33 len 21 (issuer fpr v4 72A5E32C30A256D55C27CACE0CD3E41084CA1972)
+	hashed subpkt 2 len 4 (sig created 2021-07-27)
+	hashed subpkt 27 len 1 (key flags: 0C)
+	subpkt 16 len 8 (issuer key ID 0CD3E41084CA1972)
+	data: [4096 bits]
