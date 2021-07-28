@@ -1,20 +1,11 @@
-Old: Secret Key Packet(tag 5)(1862 bytes)
+Old: Secret Key Packet(tag 5)(533 bytes)
 	Ver 4 - new
 	Public key creation time - Tue Jul 27 21:09:04 UTC 2021
 	Pub alg - RSA Encrypt or Sign(pub 1)
 	RSA n(4096 bits) - d8 18 15 a1 14 f2 12 e3 6b 52 a5 e0 4c 31 10 94 16 4b a6 aa f0 92 84 c5 75 22 5c fa 41 f4 e7 47 15 fa 73 2b a1 d6 9f 5b 9d 52 ad 36 d1 8b fa 11 fd 4a 79 73 fe 3d a5 18 73 07 ae 6f d8 1f b5 d7 c0 26 2e 23 5f 82 d3 34 4b 92 3b b5 5d 0e 12 b9 3a ad 29 b2 ee ab 0e 6e 1e 6c f2 cb 06 e7 a7 a9 23 33 e4 9e 0f bc 77 f8 98 19 24 b9 ee 5f 17 97 ff ac ff ab 6f 77 53 43 fc bb 1a 19 d5 c7 12 dd d5 b1 38 d2 f8 d4 76 46 09 db 77 2f c4 99 0d 9e ee 01 96 2f 7b 15 78 d5 69 8f 0e 54 00 cb c8 5a 59 22 37 6f 66 cf df 52 fb 22 a6 6f ce cf f6 60 c7 9c 07 33 7e 35 e4 a3 4e d7 45 a1 58 de 62 ca ee 5d b1 6b 29 84 06 ac 59 2d 76 fd f7 35 ca 00 b5 e8 43 b0 e7 05 18 79 ed 6c d8 e5 35 b3 e6 48 f2 34 75 fc 5f e5 44 c5 ad 1f dc 18 1a 8d 65 f3 35 a3 bc 85 8f 47 1d 20 89 52 a3 bb ad 3b 98 52 a3 9d e4 db 5c c0 83 2a bb 43 ee 17 c8 5e ca 94 9d 52 e1 cd cb b8 75 aa db 0c 93 ad 2e 0d cf 51 72 29 4d f8 1c 20 76 ed 46 84 1d 79 92 bc 5b e0 c1 ae 17 0f 6f a9 ae af 61 ae aa ec 96 1f f0 04 10 1f da 5e ca 46 04 1e 35 7e 86 58 c1 d8 16 02 b7 1b d0 03 3a 28 69 9f 73 21 63 04 94 36 0c 9d eb 14 7d d8 a5 aa 90 09 09 72 13 73 4b c6 13 c3 44 de 38 5d 58 42 34 0e 0f b8 22 e5 da 7c b2 bb 80 ff 49 cf 1b f5 43 5c 13 c1 3a 72 c9 28 a8 87 2a 17 b1 b3 c0 34 ef 73 52 19 13 63 b9 d1 e3 68 1a 25 69 90 31 fb e7 da 63 48 5d 17 45 ab 9a 1f 77 8f 91 86 0a a6 0c 6c 95 4f a5 33 10 f3 0d b2 a5 c6 cc cd 0c 77 fd cf d0 3f a0 b6 65 b1 c1 f1 26 e7 90 04 d8 49 19 1f 80 68 f2 f3 84 f4 a5 78 ff 12 6d c2 16 ea 73 5e ce 01 31 09 cb ad a4 ee ff 43 d7 2f c0 86 a3 54 a5 41 e7 dc 48 79 f5 c3 
 	RSA e(17 bits) - 01 00 01 
-	Sym alg - AES with 128-bit key(sym 7)
-	Iterated and salted string-to-key(s2k 3):
-		Hash alg - SHA1(hash 2)
-		Salt - 29 e0 88 ad 76 32 53 1a 
-		Count - 65011712(coded count 255)
-	IV - c3 b2 60 ce 65 fe e1 c8 44 04 48 b0 35 fc d5 f2 
-	Encrypted RSA d
-	Encrypted RSA p
-	Encrypted RSA q
-	Encrypted RSA u
-	Encrypted SHA1 hash
+	Sym alg - Plaintext or unencrypted data(sym 0)
+	GnuPG gnu-dummy (s2k 1001)
 Old: User ID Packet(tag 13)(38 bytes)
 	User ID - Vaclav (Personal) <vaclav@example.com>
 Old: Signature Packet(tag 2)(593 bytes)
@@ -101,9 +92,9 @@ Old: Secret Subkey Packet(tag 7)(1862 bytes)
 	Sym alg - AES with 128-bit key(sym 7)
 	Iterated and salted string-to-key(s2k 3):
 		Hash alg - SHA1(hash 2)
-		Salt - 9f 01 ea cf f8 8a a9 21 
+		Salt - 05 35 0b 2d e8 86 c5 28 
 		Count - 65011712(coded count 255)
-	IV - 61 42 88 28 9f 0c 6c 5c 9a f7 96 d6 46 dd 36 e0 
+	IV - 03 cd c5 34 53 03 2d 84 7c d0 72 21 cc 5b 1d 54 
 	Encrypted RSA d
 	Encrypted RSA p
 	Encrypted RSA q
@@ -135,9 +126,9 @@ Old: Secret Subkey Packet(tag 7)(1862 bytes)
 	Sym alg - AES with 128-bit key(sym 7)
 	Iterated and salted string-to-key(s2k 3):
 		Hash alg - SHA1(hash 2)
-		Salt - 3f b9 9b d0 ad 4a 9a 2b 
+		Salt - 47 9e 0d a2 fd f9 e0 17 
 		Count - 65011712(coded count 255)
-	IV - af 73 6b ce ef 7a 48 1d fc e9 c7 82 05 7a 3b e3 
+	IV - 19 2b c5 bf 11 28 a5 c2 62 c2 c3 d7 f9 20 dd 68 
 	Encrypted RSA d
 	Encrypted RSA p
 	Encrypted RSA q
