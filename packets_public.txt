@@ -8,17 +8,17 @@
 :user ID packet: "Vaclav (Personal) <vaclav@example.com>"
 # off=568 ctb=89 tag=2 hlen=3 plen=593
 :signature packet: algo 1, keyid 0CD3E41084CA1972
-	version 4, created 1627423825, md5len 0, sigclass 0x13
-	digest algo 10, begin of digest a2 35
-	hashed subpkt 27 len 1 (key flags: 03)
+	version 4, created 1627435140, md5len 0, sigclass 0x13
+	digest algo 10, begin of digest f3 03
 	hashed subpkt 11 len 4 (pref-sym-algos: 9 8 7 2)
 	hashed subpkt 21 len 5 (pref-hash-algos: 10 9 8 11 2)
 	hashed subpkt 22 len 3 (pref-zip-algos: 2 3 1)
 	hashed subpkt 30 len 1 (features: 01)
 	hashed subpkt 23 len 1 (keyserver preferences: 80)
-	hashed subpkt 33 len 21 (issuer fpr v4 72A5E32C30A256D55C27CACE0CD3E41084CA1972)
-	hashed subpkt 2 len 4 (sig created 2021-07-27)
 	hashed subpkt 25 len 1 (primary user ID)
+	hashed subpkt 33 len 21 (issuer fpr v4 72A5E32C30A256D55C27CACE0CD3E41084CA1972)
+	hashed subpkt 2 len 4 (sig created 2021-07-28)
+	hashed subpkt 27 len 1 (key flags: 01)
 	subpkt 16 len 8 (issuer key ID 0CD3E41084CA1972)
 	data: [4096 bits]
 # off=1164 ctb=b4 tag=13 hlen=2 plen=34

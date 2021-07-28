@@ -1,6 +1,6 @@
 /home/vah/projects/gnupg/pubring.kbx
 ------------------------------------
-sec   rsa4096/0CD3E41084CA1972 2021-07-27 [SC]
+sec   rsa4096/0CD3E41084CA1972 2021-07-27 [C]
       Key fingerprint = 72A5 E32C 30A2 56D5 5C27  CACE 0CD3 E410 84CA 1972
       Keygrip = 714C7142B78942A6EEA7A2FC028DED015B65746E
 uid                 [ultimate] Vaclav (Personal) <vaclav@example.com>

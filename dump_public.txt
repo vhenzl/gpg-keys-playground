@@ -11,9 +11,6 @@ Old: Signature Packet(tag 2)(593 bytes)
 	Sig type - Positive certification of a User ID and Public Key packet(0x13).
 	Pub alg - RSA Encrypt or Sign(pub 1)
 	Hash alg - SHA512(hash 10)
-	Hashed Sub: key flags(sub 27)(1 bytes)
-		Flag - This key may be used to certify other keys
-		Flag - This key may be used to sign data
 	Hashed Sub: preferred symmetric algorithms(sub 11)(4 bytes)
 		Sym alg - AES with 256-bit key(sym 9)
 		Sym alg - AES with 192-bit key(sym 8)
@@ -33,15 +30,17 @@ Old: Signature Packet(tag 2)(593 bytes)
 		Flag - Modification detection (packets 18 and 19)
 	Hashed Sub: key server preferences(sub 23)(1 bytes)
 		Flag - No-modify
+	Hashed Sub: primary User ID(sub 25)(1 bytes)
+		Primary - Yes
 	Hashed Sub: issuer fingerprint(sub 33)(21 bytes)
 	 v4 -	Fingerprint - 72 a5 e3 2c 30 a2 56 d5 5c 27 ca ce 0c d3 e4 10 84 ca 19 72 
 	Hashed Sub: signature creation time(sub 2)(4 bytes)
-		Time - Tue Jul 27 22:10:25 UTC 2021
-	Hashed Sub: primary User ID(sub 25)(1 bytes)
-		Primary - Yes
+		Time - Wed Jul 28 01:19:00 UTC 2021
+	Hashed Sub: key flags(sub 27)(1 bytes)
+		Flag - This key may be used to certify other keys
 	Sub: issuer key ID(sub 16)(8 bytes)
 		Key ID - 0x0CD3E41084CA1972
-	Hash left 2 bytes - a2 35 
+	Hash left 2 bytes - f3 03 
 	RSA m^d mod n(4096 bits) - ...
 		-> PKCS-1
 Old: User ID Packet(tag 13)(34 bytes)
