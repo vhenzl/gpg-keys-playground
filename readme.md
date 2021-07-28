@@ -40,13 +40,13 @@ gpg -armor --export-secret-subkeys 0CD3E41084CA1972 > gpg_private_sub.asc
 Data files created with:
 
 ```
-pgpdump gpg_public.asc -u > dump_public.txt && \
-pgpdump gpg_private.asc -u > dump_private.txt && \
-pgpdump gpg_private_sub.asc -u > dump_private_sub.txt && \
-gpg --list-packets gpg_public.asc > packets_public.txt && \
-gpg --list-packets gpg_private.asc > packets_private.txt && \
-gpg --list-packets gpg_private_sub.asc > packets_private_sub.txt && \
+pgpdump gpg_public.asc -ilmpu > dump_public.txt && \
+pgpdump gpg_private.asc -ilmpu > dump_private.txt && \
+pgpdump gpg_private_sub.asc -ilmpu > dump_private_sub.txt && \
+gpg -v --list-packets gpg_public.asc > packets_public.txt && \
+gpg -v --list-packets gpg_private.asc > packets_private.txt && \
+gpg -v --list-packets gpg_private_sub.asc > packets_private_sub.txt && \
 gpg --list-secret-keys --keyid-format=long --with-fingerprint --with-fingerprint --with-keygrip > list.txt
 ```
 
-Password used in `gpg --expert --full-gen-key`: `xyz123`. Each executed command is in corresponding commit message.
+Password used in `gpg --expert --full-gen-key`: `xyz123`. Each executed command is recorded in the corresponding commit message.
