@@ -92,9 +92,9 @@ Old: Secret Subkey Packet(tag 7)(1862 bytes)
 	Sym alg - AES with 128-bit key(sym 7)
 	Iterated and salted string-to-key(s2k 3):
 		Hash alg - SHA1(hash 2)
-		Salt - 76 52 ed 98 11 ff 9e 89 
+		Salt - 0a 96 75 59 0e e4 93 00 
 		Count - 65011712(coded count 255)
-	IV - 8a da f8 d8 50 f8 63 bd 14 82 24 cb f8 a4 e7 97 
+	IV - b3 19 eb 1d 5a df 4d d0 78 95 43 5c d7 ec b6 c7 
 	Encrypted RSA d
 	Encrypted RSA p
 	Encrypted RSA q
@@ -126,9 +126,9 @@ Old: Secret Subkey Packet(tag 7)(1862 bytes)
 	Sym alg - AES with 128-bit key(sym 7)
 	Iterated and salted string-to-key(s2k 3):
 		Hash alg - SHA1(hash 2)
-		Salt - 1a 8c 21 f0 1f f6 06 a3 
+		Salt - a1 93 7e 88 2c 14 17 9c 
 		Count - 65011712(coded count 255)
-	IV - 21 44 3f bd 8b 92 20 76 6c b2 52 86 c8 1d 72 74 
+	IV - e7 cc cd 0a 58 cf f5 05 e7 c0 aa e6 37 2f 85 61 
 	Encrypted RSA d
 	Encrypted RSA p
 	Encrypted RSA q
